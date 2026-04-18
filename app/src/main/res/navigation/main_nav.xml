@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/pickerPhotoFragment">
+
+    <fragment
+        android:id="@+id/pickerPhotoFragment"
+        android:name="com.example.myapplication.PickerPhotoFragment"
+        android:label="fragment_picker_photo"
+        tools:layout="@layout/fragment_picker_photo" />
+    <fragment
+        android:id="@+id/mediaStoreFragment"
+        android:name="com.example.myapplication.MediaStoreFragment"
+        android:label="fragment_media_store"
+        tools:layout="@layout/fragment_media_store" />
+</navigation>
